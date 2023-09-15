@@ -35,7 +35,7 @@
                         <label for="email">Password:</label>
                         <asp:TextBox ID="txtPassword" TextMode="Password" CssClass="form-control" runat="server"></asp:TextBox>
                     </div>
-                    <asp:Button runat="server" CssClass="btn btn-primary" Text="Register" ID="btnSubmit" />
+                    <asp:Button runat="server" OnClick="btnSubmit_Click" CssClass="btn btn-primary" Text="Register" ID="btnSubmit" />
                 </div>
             </div>
 
